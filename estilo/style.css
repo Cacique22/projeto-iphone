@@ -5,11 +5,11 @@
 }
 
 body{
-    width: 100vw;
+    width: 90vw;
     height: 100vh;
     background: url(/projeto-iphone/imagens/fundo-madeira.jpg) no-repeat fixed;
     background-size: cover;
-   
+
 }
 
 main{
@@ -19,14 +19,13 @@ main{
 }
 
 div#iphone{
-    height: 627px;
+    height: 626px;
     width: 311px;
     background-color: blue;
     top: 50%;
     left:50%;
     position: absolute;
     transform: translate( -50%, -50%);
-
     background: url(/projeto-iphone/imagens/frame-iphone.png) no-repeat;
     
 }
@@ -36,4 +35,30 @@ iframe#tela{
     height: 469px;
     position: absolute;
     transform: translate(23px, 81px);
+    
+}
+
+div#redes-sociais {
+    position: absolute;
+    top: 18%;
+    left: 95%;
+    text-align: center;
+}
+
+li{
+    list-style: none;
+
+}
+
+ li img {
+    width: 50px;
+    border-radius: 50%;
+    
+}
+
+img:hover{
+    width: 60px;
+    transform: scale(110%);
+    text-align: center;
+
 }
