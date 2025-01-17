@@ -19,14 +19,16 @@ main{
 }
 
 div#iphone{
-    height: 626px;
-    width: 311px;
+    min-height: 626px;
+    min-width: 311px;
     background-color: blue;
     top: 50%;
     left:50%;
     position: absolute;
     transform: translate( -50%, -50%);
     background: url(/projeto-iphone/imagens/frame-iphone.png) no-repeat;
+    margin-left: 0px;
+    margin-right: 1px;
     
 }
 
@@ -41,24 +43,28 @@ iframe#tela{
 div#redes-sociais {
     position: absolute;
     top: 18%;
-    left: 95%;
+    right: -10%;
     text-align: center;
 }
 
 li{
     list-style: none;
-
+    margin-left: 10px;
+    margin-right: 1px;
 }
 
  li img {
-    width: 50px;
+    max-width: 50px;
+    min-width: 10px;
     border-radius: 50%;
-    
+    margin-top: 5px;
+
+    margin-bottom: 5px;
 }
 
 img:hover{
     width: 60px;
-    transform: scale(110%);
+    transform: scale(105%);
     text-align: center;
-
+    border: 1px solid white;
 }
