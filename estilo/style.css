@@ -1,0 +1,39 @@
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+    background: url(/projeto-iphone/imagens/fundo-madeira.jpg) no-repeat fixed;
+    background-size: cover;
+   
+}
+
+main{
+    position: relative;
+    height: 100vh;
+    
+}
+
+div#iphone{
+    height: 627px;
+    width: 311px;
+    background-color: blue;
+    top: 50%;
+    left:50%;
+    position: absolute;
+    transform: translate( -50%, -50%);
+
+    background: url(/projeto-iphone/imagens/frame-iphone.png) no-repeat;
+    
+}
+
+iframe#tela{
+    width: 265px;
+    height: 469px;
+    position: absolute;
+    transform: translate(23px, 81px);
+}
