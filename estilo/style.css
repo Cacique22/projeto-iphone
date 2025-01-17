@@ -58,13 +58,14 @@ li{
     min-width: 10px;
     border-radius: 50%;
     margin-top: 5px;
-
+    box-sizing: border-box;
     margin-bottom: 5px;
 }
 
 img:hover{
     width: 60px;
-    transform: scale(105%);
+    transform: scale(120%);
+    transition: transform .2s;
     text-align: center;
     border: 1px solid white;
 }
